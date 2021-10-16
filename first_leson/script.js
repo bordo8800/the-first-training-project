@@ -24,6 +24,6 @@ for (i = 0; i < 2; i++) {
     appData.expenses[firstQuesion] = secondQuesion;
 
 };
-let dailyBudget = (appData.budget / 30).toFixed(2);
-alert("Ваш бюджет на день " + dailyBudget);
+let dailyBudget = (appData.budget / 30);
+alert("Ваш бюджет на день " + dailyBudget.toFixed(2));
 
